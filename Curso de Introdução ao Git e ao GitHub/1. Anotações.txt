@@ -1,0 +1,70 @@
+Anotações do Curso de Introdução ao Git e GitHub da DIO
+
+O Git é um sistema de controle de versão distribuído e amplamente adotado. Seu criador principal é o Linus Torvalds, e ganhou muitos adeptos que trabalham com open source.
+
+O GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs, utilizando o Git como sistema de controle.
+
+Comandos do Git
+
+Você pode ver todas as suas configurações e de onde elas vêm usando:
+$ git config --list --show-origin
+
+Definir seu nome de usuário e endereço de e-mail.
+$ git config --global user.name "HelaniaBulcao"
+$ git config --global user.email "helaniajlbulcao@gmail.com"
+
+O comando config --list comando para listar todas as configurações que o Git pode encontrar nesse ponto:
+$ git config --list
+
+Obter a ajuda da página de manual para o git config:
+$ git help config
+
+Cria um novo subdiretório chamado .gitque contém todos os seus arquivos de repositório
+$ git init
+
+Um commit inicial
+$ git commit -m 'Initial project version'
+
+Podemos pedir para o Git adicionar (add) o nosso arquivo
+git add anotações.txt
+
+Adicionar todos os arquivos de um diretório
+git add css/
+
+Adicionando todos os arquivos de uma vez
+Considerando que precisamos fazer isso para todos, podemos dizer para o Git adicionar (add) todos os arquivos modificados (.):
+$ git add . ou $ git add -A
+
+Salvando versões do projeto
+git commit -m "primeira anotação"
+
+Observação:
+Agora que temos a nossa primeira versão, vamos ajustar o projeto e colocar as outras versões que o cliente pediu e fazer o mesmo procedimento, isto é, marcar os arquivos para salvar com o add, e então, salvar a versão com o commit.
+
+Visualizando os commits
+Para visualizarmos todos os commits que realizamos até o momento no repositório Git, basta apenas utilizar o comando git log
+
+Clonar um repositório existente
+$ git clone "https://.../"
+
+Mostra email e o nickname do GitHub
+S git config --list
+
+Caso o e-mail e o nome estejam diferentes do GitHub devemos reconfigurar:
+$ git config --global --unset user.email
+$ git config --global --unset user.name
+Depois digitar
+$ git config --global user.email "digitar o email correto"
+$ git config --global user.name "escrever o nome correto"
+
+$ git remote add origin "url do repositorio"
+$ git remote -v (mostra os repositorios)
+$ git status
+$ git push origin master
+
+
+Links úteis:
+
+1. Download Git: https://git-scm.com/downloads
+2. Pro Git book: https://git-scm.com/book/en/v2
+3. https://www.markdownguide.org/basic-syntax/
