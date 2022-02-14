@@ -1,0 +1,38 @@
+Curso Primeiro Passos Para Começar a Programar
+Instrutora: Juliana Mascarenhas
+
+1. História da Computação
+1.1. Apresentação do curso
+1.2. Introdução
+1.3. Berço da Computação
+1.4. Instrumentos Computacionais
+1.5. Primeiros Computadores
+1.6. Era dos Computadores pessoais
+1.7. Considerações sobre Ciância da Computação
+
+2. Introdução à lógica da programação
+2.1. O que é lógica de programação?
+2.2. Técnicas de lógica de programação
+
+3. Algoritmos
+3.1. O que é algoritmos?
+3.2. Construção de algoritmos
+
+4. Fundamentos de Algoritmos
+4.1. Tipologia e Variáveis
+4.2. Instruções primitivas
+4.3. Estruturas condicionais e operadores
+4.4. Estruturas de repetição
+4.5. Vetores e matrizes
+4.6. O que são funções
+4.7. Instruções de entrada e saída
+
+5. Linguagem de programação
+5.1. Referencias Bibliográficas
+5.2. Introdução as linguagens de programação
+5.3. Como o computador entende o programa
+5.4. Análises de código
+5.5. Paradigmas de Programação
+5.6. Materiais de apoio.
+
+ 
